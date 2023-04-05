@@ -36,7 +36,7 @@ function showPasswords(){
 
 //copy password
 function copyPassword() {
-    navigator.clipboard.writeText( generateGlobal.value);
+    navigator.clipboard.writeText(generateGlobal.value);
     // copyText.textContent = copyDefault;
-    alert("Copied the text: " + passwordEl.value);
+    alert("Copied the text: " + generateGlobal.value);
 }
