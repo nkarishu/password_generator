@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    background: #E5E5E5;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+main {
+    background: #1F2937;
+    color: #fff;
+    font-family: 'Karla', sans-serif;
+    width: 50%;
+    height: 65vh;
+    padding: 5% 8%;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 64px;
+    letter-spacing: -2.5;
+    line-height: .2;
+}
+
+.h1__color {
+    color: #10B981;
+}
+
+.txt {
+    font-weight: 200;
+    font-size: 24px;
+    margin-bottom: 10vh;
+}
+
+button {
+    width: 300px;
+    padding: 20px;
+    background: #10B981;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+}
+
+.line {
+    width: 100%;
+    border-bottom: 1px solid #fff;
+    margin: 6vh 0 8vh;
+}
+
+.password__box {
+    width: 300px;
+    height: 63.5px;
+    text-align: center;
+    background: #273549;
+    font-size: 20px;
+    font-family: 'Karla', sans-serif;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    display: inline-block;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.password {
+    margin-right: 10px;
+}
+
+.material-symbols-outlined {
+    position: absolute;
+    top: 19px;
+    right: 28px;
+    font-variation-settings:
+        'FILL'0,
+        'wght'400,
+        'GRAD'0,
+        'opsz'48
+}
